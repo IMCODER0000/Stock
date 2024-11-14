@@ -1,0 +1,279 @@
+.Main-total {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.Main-Content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main-Search{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.search-input {
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 30px 0 0 30px; 
+    outline: none;
+    transition: all 0.3s ease;
+
+}
+
+.search-input::placeholder {
+    color: #bbb;
+}
+
+.search-input:focus {
+    border-color: white;
+    background-color: #444;
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #555;
+    border-left: none; 
+    border-radius: 0 30px 30px 0; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button:hover {
+    background-color: #666;
+    border-color: white;
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+
+.stock-list {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.stock-item {
+    align-items: center;
+    display: flex;
+
+    padding: 22px 0;
+
+}
+
+.name{
+    width: 100px;
+}
+
+.stock-item:last-child {
+    border-bottom: none;
+}
+
+.rank {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.change {
+    width: 100px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.price {
+    text-align: right;
+    font-size: 14px;
+    color: rgb(185, 184, 184);
+}
+
+.stock-image {
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px;
+}
+.stock-image2 {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+}
+
+.price-change {
+    display: grid; 
+    margin-top: 5px; 
+    position: relative;
+    left: 190px;
+
+}
+
+
+.stock-detail{
+    width: 600px;
+    height: 800px;
+    border: white 2px solid;
+    margin-bottom: 100px;
+}
+
+.stock-name-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stock-name{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.stock-enName{
+    color: rgb(129, 129, 129);
+    margin-left: 6px;
+    font-weight: 700;
+}
+
+.stock-pice{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.Kr{
+    font-weight: 700;
+    font-size: 36px;
+}
+.En{
+    font-weight: 700;
+    color: rgb(126, 126, 126);
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.unit-button1{
+    background-color: #3b3b3b;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 15px;
+    font-weight: 900;
+    
+}
+.unit-button2{
+    background-color: #646464;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 15px;
+    font-weight: 900;
+    
+}
+
+.unit-button-box{
+    margin-left: 190px;
+}
+
+.stock-change{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.stock-intention{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.intention-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sell-bar, .buy-bar {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 900;
+}
+
+.sell-bar {
+    background-color: #00008B; 
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.buy-bar {
+    background-color: #B22222; 
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.vs-bar {
+    width: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.vs{
+    width: 90px;
+}
+
+.recommend-per{
+    margin-left: 25px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.recommend-img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+}
