@@ -268,6 +268,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: none;
+    will-change: contents;
 }
 
 .sell-bar, .buy-bar {
@@ -282,19 +284,23 @@
     box-sizing: border-box;
     text-align: center;
     font-weight: 900;
+    transition: none !important;
+    will-change: width;
+    transform: translateZ(0);
 }
 
 .sell-bar {
     background-color: #00008B; 
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    
+    transition: none !important;
 }
 
 .buy-bar {
     background-color: #B22222; 
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    transition: none !important;
 }
 
 .vs-bar {
